@@ -56,6 +56,20 @@
 1. Google VIP → 検索上位 → 外部流入
 2. Qiita内部 → アドベントカレンダー → 内部回遊
 
+### Traffic Source Summary (2025-12-15)
+
+| Channel | Description | Share |
+|---------|-------------|-------|
+| **Direct** | Qiita内部回遊、ブックマーク、直接URL | 大半 |
+| **X (Twitter)** | SNSシェア・リンク | 少数 |
+| **Google検索** | 検索エンジン経由（VIP効果） | 少数 |
+| **Microsoft Teams** | 企業内共有・業務利用 | 少数 |
+
+**Key Insight**:
+- Qiita内でのプレゼンスが主要な流入基盤
+- Google VIP効果は外部流入を補強
+- 企業内共有（Teams）は業務での実用を示唆
+
 ### Access Patterns
 - Microsoft Teams referrals (corporate sharing)
 - Multiple Bot accesses (tech aggregators)
