@@ -41,6 +41,21 @@
 
 **Insight**: One visitor navigated to a related article (horizontal movement), indicating content quality drives further exploration beyond single-page visits.
 
+### Channel Analysis (2025-12-15)
+
+| New Users | Main Channel Group | Interpretation |
+|-----------|-------------------|----------------|
+| 2 | **Direct** | Qiita内部からのアクセス |
+
+**Discovery Path**:
+- ひとりアドベントカレンダー → 興味 → 記事アクセス
+- External search (Google) ではなく Qiita内回遊
+- アドベントカレンダーが「入口」として機能
+
+**Multiple Recognition Paths**:
+1. Google VIP → 検索上位 → 外部流入
+2. Qiita内部 → アドベントカレンダー → 内部回遊
+
 ### Access Patterns
 - Microsoft Teams referrals (corporate sharing)
 - Multiple Bot accesses (tech aggregators)
