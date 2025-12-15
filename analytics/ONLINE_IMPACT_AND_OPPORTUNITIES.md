@@ -86,6 +86,15 @@
 
 ---
 
+## Content Schedule
+
+### Qiita Posting Plan
+- **Rest of 2025**: No new posts (休止)
+- **2026-01-01 ~ 01-03**: Special series (3 parts, 1 per day)
+  - Strategic timing: New Year's traffic + Google VIP status = immediate exposure
+
+---
+
 ## Strategic Notes
 
 ### Strengths to Leverage
