@@ -70,6 +70,27 @@
 - Google VIP効果は外部流入を補強
 - 企業内共有（Teams）は業務での実用を示唆
 
+### Traffic Source Deep Dive (2025-12-15 探索)
+
+**Direct アクセス 3パターン**:
+
+| Pattern | Description |
+|---------|-------------|
+| ブックマーク | 保存済みURLからの直接アクセス |
+| アドベントカレンダー | ひとりアドベントカレンダー経由 |
+| タグ | Qiitaタグページからの流入（少数） |
+
+**X (Twitter) 経由 2パターン**:
+
+| Pattern | Description |
+|---------|-------------|
+| 記事ダイレクトリンク | 特定記事のURLシェア |
+| ユーザ名経由 | プロフィールページ経由（著者認知） |
+
+**Deep Dive Insight**:
+- Direct = 具体的な3つの行動パターンに分解可能
+- X経由で「著者」としての認知も確認（ブランディング効果）
+
 ### Access Patterns
 - Microsoft Teams referrals (corporate sharing)
 - Multiple Bot accesses (tech aggregators)
