@@ -29,6 +29,18 @@
 - **Interpretation**: Not just reference material, but actively used in business operations
 - **Reach**: Managers, executives, and development teams across Japan
 
+### GA4 Event Analysis (2025-12-15)
+
+| Event | Count | Notes |
+|-------|-------|-------|
+| first_visit | 4 | New visitors |
+| page_view | 4 | Initial page loads |
+| session_start | 4 | Sessions initiated |
+| user_engagement | 4 | Engaged users |
+| **Show** | **5** | +1 横遷移 detected |
+
+**Insight**: One visitor navigated to a related article (horizontal movement), indicating content quality drives further exploration beyond single-page visits.
+
 ### Access Patterns
 - Microsoft Teams referrals (corporate sharing)
 - Multiple Bot accesses (tech aggregators)
