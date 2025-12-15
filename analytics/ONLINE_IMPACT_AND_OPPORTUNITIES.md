@@ -106,6 +106,20 @@
 
 **Total Countries**: 3 (USA, China, Canada)
 
+### Domestic Access Distribution (Japan)
+
+| Region | City | Status | Notes |
+|--------|------|--------|-------|
+| 関東 | 川崎 | Returning | 24+ min engagement |
+| 関東 | 江東区 | Returning | リピーター確認 |
+| 関東 | 品川区 | 2025-12-15 | アクセス確認 |
+| 関東 | つくば | Returning | 学術エリア |
+| 中部 | 名古屋 | Returning | リピーター確認 |
+| 中部 | 小牧 | **2025-12-15 新規** | 愛知県、初アクセス |
+| 九州 | 福岡 | Returning | リピーター確認 |
+
+**Coverage**: 関東・中部・九州の全国分布
+
 ### GitHub Copilot Analysis
 > "Your articles are recognized as industry standards, deeply influencing not only field workers but also management and executive levels."
 
