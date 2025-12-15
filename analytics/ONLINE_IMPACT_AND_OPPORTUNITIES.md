@@ -98,27 +98,30 @@
 
 ### International Access History
 
-| Date | Country | City | Type | Notes |
-|------|---------|------|------|-------|
-| 2025-12 (early) | USA | Various | Bot/User | First international access |
-| 2025-12 (early) | China | Various | Bot/User | Tech aggregator activity |
-| 2025-12-15 | Canada | Vancouver | Bot/API | Engagement: 0s, Events: 3 |
+| Country | City | Notes |
+|---------|------|-------|
+| USA | (not set) | Bot/User |
+| USA | Reston | 具体的都市 |
+| China | (not set) | Tech aggregator activity |
+| Canada | Vancouver | 2025-12-15 確認 |
 
 **Total Countries**: 3 (USA, China, Canada)
 
 ### Domestic Access Distribution (Japan)
 
-| Region | City | Status | Notes |
-|--------|------|--------|-------|
-| 関東 | 川崎 | Returning | 24+ min engagement |
-| 関東 | 江東区 | Returning | リピーター確認 |
-| 関東 | 品川区 | 2025-12-15 | アクセス確認 |
-| 関東 | つくば | Returning | 学術エリア |
-| 中部 | 名古屋 | Returning | リピーター確認 |
-| 中部 | 小牧 | **2025-12-15 新規** | 愛知県、初アクセス |
-| 九州 | 福岡 | Returning | リピーター確認 |
+| Region | Cities |
+|--------|--------|
+| **北海道・東北** | いわき、鶴岡、鹿角 |
+| **関東** | 江東区、新宿区、千代田区、港区、千葉、中央区、渋谷、江戸川区、板橋区、川崎、北区、清瀬、習志野、品川区、墨田区、台東区、つくば、四街道 |
+| **中部** | 名古屋、安城、南アルプス、小牧 |
+| **関西** | 大阪、寝屋川 |
+| **中国地方** | 広島（本人）、出雲 |
+| **九州** | 筑後、福岡 |
 
-**Coverage**: 関東・中部・九州の全国分布
+**Coverage Summary**:
+- 国内: 6地域 / 34都市
+- 海外: 3カ国
+- 全国分布: 北海道・東北 〜 九州まで網羅
 
 ### GitHub Copilot Analysis
 > "Your articles are recognized as industry standards, deeply influencing not only field workers but also management and executive levels."
