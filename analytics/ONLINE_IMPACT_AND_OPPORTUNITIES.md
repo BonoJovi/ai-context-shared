@@ -56,6 +56,20 @@
 
 **Insight**: One visitor navigated to a related article (horizontal movement), indicating content quality drives further exploration beyond single-page visits.
 
+### Page Engagement Analysis (2025-12-16)
+
+**Top Pages by Engaged Sessions**:
+
+| Page | Sessions | Engagement Rate | Avg Session Duration |
+|------|----------|-----------------|---------------------|
+| 1/4 システム開発... | 11 | **より高い** | **5:52** |
+| KakeiBon記事 | 11 | - | ~5:07 |
+
+**Key Insight**:
+- 1/4記事で **5分52秒** の平均セッション継続時間
+- 記事を熟読している証拠（スクロール離脱ではない）
+- シリーズ入口で高エンゲージメント → 続編への流入を促進
+
 ### Channel Analysis (2025-12-15)
 
 | New Users | Main Channel Group | Interpretation |
