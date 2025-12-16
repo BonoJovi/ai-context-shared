@@ -1,6 +1,6 @@
 # Online Impact and Opportunities
 
-**Last Updated**: 2025-12-15 JST (International access updated)
+**Last Updated**: 2025-12-16 JST (Hatena Bookmark traffic added)
 **Purpose**: Track online influence, real-world opportunities, and development implications
 **Keywords**: impact, 影響, opportunities, 機会, SEO, Google, Qiita, GitHub, engagement, エンゲージメント, authority, 権威性, career, キャリア, agent, エージェント, marketing, マーケティング
 
@@ -100,11 +100,13 @@
 | **X (Twitter)** | SNSシェア・リンク | 少数 |
 | **Google検索** | 検索エンジン経由（VIP効果） | 少数 |
 | **Microsoft Teams** | 企業内共有・業務利用 | 少数 |
+| **はてなブックマーク** | 技術者コミュニティからの流入 | 少数🆕 |
 
 **Key Insight**:
 - Qiita内でのプレゼンスが主要な流入基盤
 - Google VIP効果は外部流入を補強
 - 企業内共有（Teams）は業務での実用を示唆
+- 2025-12-16: はてブから「AIが迷わないコンテキスト設計」への流入を確認
 
 ### Traffic Source Deep Dive (2025-12-15 探索)
 
