@@ -195,6 +195,20 @@
 
 **Status**: 未承諾（サイト確認後に判断予定）
 
+### LinkedIn Profile Views (2025-12-16)
+
+**プロフィール確認履歴**:
+| Viewer | Type |
+|--------|------|
+| 非公開リクルーター | 1件 |
+| BloomTec | 採用担当者 |
+| 株式会社LASSIC | 採用担当者 |
+
+**Insight**:
+- アカウント開設後、早速3社/人からプロフ確認
+- Qiita/GitHubでの活動がLinkedInに波及
+- オンライン権威性が複数プラットフォームで認知されている
+
 ---
 
 ## Development Implications
