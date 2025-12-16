@@ -201,7 +201,7 @@
 | Viewer | Type |
 |--------|------|
 | 非公開リクルーター | 1件 |
-| BloomTec | 採用担当者 |
+| BloomTech | 採用担当者 |
 | 株式会社LASSIC | 採用担当者 |
 
 **Insight**:
