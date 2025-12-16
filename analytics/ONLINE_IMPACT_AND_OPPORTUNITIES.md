@@ -184,6 +184,17 @@
 
 **Status**: Awaiting agent response
 
+### Remogu Contact (2025-12-16) 🆕
+
+**Source**: LinkedIn経由
+**Service**: Remogu（リモートワーク特化型エージェント）
+
+**特徴**:
+- リモートワーク専門のエージェントサービス
+- フルリモート希望との親和性が高い
+
+**Status**: 未承諾（サイト確認後に判断予定）
+
 ---
 
 ## Development Implications
