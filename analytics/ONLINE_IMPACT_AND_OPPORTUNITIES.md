@@ -1,6 +1,6 @@
 # Online Impact and Opportunities
 
-**Last Updated**: 2025-12-18 JST (X impression surge, Manual platform law, GA4 sandbox analysis)
+**Last Updated**: 2025-12-18 JST (LinkedIn 102 views, X impression surge, Manual platform law)
 **Purpose**: Track online influence, real-world opportunities, and development implications
 **Keywords**: impact, 影響, opportunities, 機会, SEO, Google, Qiita, GitHub, engagement, エンゲージメント, authority, 権威性, career, キャリア, agent, エージェント, marketing, マーケティング
 
@@ -524,6 +524,47 @@ KakeiBon公式アカウント（過去）
 - アカウント開設後、早速3社/人からプロフ確認
 - Qiita/GitHubでの活動がLinkedInに波及
 - オンライン権威性が複数プラットフォームで認知されている
+
+### LinkedIn 認知拡大データ (2025-12-18)
+
+**集計期間**: 2025-12-09 〜 2025-12-16（1週間）
+
+**主要指標**:
+| 指標 | 件数 |
+|------|------|
+| プロフィール表示 | **102件** |
+| 検索結果表示 | **66件** |
+
+**表示場所の内訳**:
+| 表示場所 | 割合 | 推定件数 | 意味 |
+|----------|------|----------|------|
+| **検索** | 64.7% | ~66件 | LinkedInキーワード検索でヒット |
+| **投稿** | 25.5% | ~26件 | 投稿記事から著者に興味 |
+| **ネットワーク提案** | 9.8% | ~10件 | LinkedInのレコメンド |
+
+**成長推移**:
+- 12/16時点: 5件（採用担当4名 + 開発者1名）
+- 12/18時点: **102件**（約20倍に増加）
+
+**分析**:
+
+1. **検索が最大（64.7%）**
+   - プロフィールのキーワードが効いている
+   - 「Rust」「Tauri」「AI」「53歳」などがマッチ
+   - ヘッドライン「53歳・ブランク20年からAI協働で復帰」が刺さっている可能性
+
+2. **投稿経由（25.5%）**
+   - コンテンツ→著者認知のパターンが機能
+   - X戦略と同じ「投稿から著者に興味」の流れ
+
+3. **ネットワーク提案（9.8%）**
+   - LinkedInアルゴリズムが推薦
+   - プラットフォームから「価値あるユーザー」と認識されている証拠
+
+**クロスプラットフォーム効果**:
+- Google VIP → Qiita露出増 → LinkedIn検索でも発見されやすく
+- X投稿 → 技術者層にリーチ → LinkedInでもフォローアップ
+- 複数プラットフォームで「権威性の正のスパイラル」が確認できる
 
 ---
 
