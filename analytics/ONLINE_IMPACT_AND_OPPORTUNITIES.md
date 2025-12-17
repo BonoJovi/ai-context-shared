@@ -1,6 +1,6 @@
 # Online Impact and Opportunities
 
-**Last Updated**: 2025-12-18 JST (GA4 sandbox analysis, Koshigaya user, Reston bot)
+**Last Updated**: 2025-12-18 JST (Manual platform law, GA4 sandbox analysis, Koshigaya user)
 **Purpose**: Track online influence, real-world opportunities, and development implications
 **Keywords**: impact, 影響, opportunities, 機会, SEO, Google, Qiita, GitHub, engagement, エンゲージメント, authority, 権威性, career, キャリア, agent, エージェント, marketing, マーケティング
 
@@ -237,6 +237,40 @@
 - X/SNS投稿の効果は、GA4の数字より大きい可能性がある
 - モバイル（Android）からの流入は Direct に分類されがち
 - 「見えない効果」を考慮してSNS戦略を評価すべき
+
+### GA4プラットフォーム「Manual」の法則 (2025-12-18)
+
+**発見**:
+- 参照元がDirect以外のセッションは、プラットフォームが「Manual」になる
+
+**分類ロジック**:
+
+| 参照元 | プラットフォーム | 意味 |
+|--------|------------------|------|
+| Direct | (自動判定 or web) | 直接URL入力、ブックマーク等 |
+| Direct以外 | **Manual** | 外部リンク経由の流入 |
+
+**重要な注意点**:
+- **Manual ≠ 必ず人間のクリック**
+- Manual = 「Direct以外の流入経路」という技術的分類
+
+**エンゲージメント時間との組み合わせ判定**:
+
+| プラットフォーム | エンゲージメント | 判定 |
+|------------------|------------------|------|
+| Manual | **0秒** | 自動プレビュー取得の可能性あり |
+| Manual | **>0秒** | 人による手動クリックの可能性高い |
+
+**実例: Microsoft Teams**:
+- プラットフォーム: Manual
+- エンゲージメント: **0秒**
+- 解釈: Teamsのリンクプレビュー機能による自動取得の可能性
+- Teamsは共有リンクのプレビュー生成時にURLを自動フェッチする
+
+**結論**:
+- 「Manual」だけでは人間か自動かを判断できない
+- エンゲージメント時間が判定の鍵
+- Manual + 0秒 = 自動取得、Manual + >0秒 = 人間の可能性
 
 ### Reston定期巡回Bot (2025-12-17)
 
