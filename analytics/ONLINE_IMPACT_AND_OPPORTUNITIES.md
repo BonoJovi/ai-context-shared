@@ -1,6 +1,6 @@
 # Online Impact and Opportunities
 
-**Last Updated**: 2025-12-18 JST (LinkedIn 102 views, X impression surge, Manual platform law)
+**Last Updated**: 2025-12-18 JST (LinkedIn search user analysis, LinkedIn 102 views, X impression surge)
 **Purpose**: Track online influence, real-world opportunities, and development implications
 **Keywords**: impact, 影響, opportunities, 機会, SEO, Google, Qiita, GitHub, engagement, エンゲージメント, authority, 権威性, career, キャリア, agent, エージェント, marketing, マーケティング
 
@@ -565,6 +565,49 @@ KakeiBon公式アカウント（過去）
 - Google VIP → Qiita露出増 → LinkedIn検索でも発見されやすく
 - X投稿 → 技術者層にリーチ → LinkedInでもフォローアップ
 - 複数プラットフォームで「権威性の正のスパイラル」が確認できる
+
+### LinkedIn 検索ユーザー分析 (2025-12-18)
+
+**検索ユーザーの勤務先上位企業**:
+
+| 企業名 | 特徴 |
+|--------|------|
+| 株式会社LASSIC | 地方創生×IT（プロフ確認実績あり） |
+| パーソルキャリア株式会社 BRS | 大手人材（doda運営） |
+| Accretive Talent for Japan (ATJ) | 外資系人材紹介 |
+| Morgan McKinley | 国際的リクルートファーム |
+| ジェイエイシーリクルートメント | ハイクラス転職特化 |
+
+**注目**: 全てリクルーティング企業。大手〜外資〜ハイクラス特化まで幅広い層が検索。
+
+**検索ユーザーの上位役職**:
+
+| 役職 | 割合 | 解釈 |
+|------|------|------|
+| カスタマーサービス | 33.3% | 人材会社のCA（キャリアアドバイザー）か |
+| **ITコンサルタント** | 33.3% | 技術者層からの関心 |
+| コンサルタント | 12.1% | ビジネス系コンサル |
+| セールス | 9.1% | 営業/テック営業 |
+| リクルーター | 3% | 採用担当 |
+
+**分析**:
+- 技術系（ITコンサル + コンサル）: **45.4%** → 技術者からの関心が高い
+- カスタマーサービス33.3%: 人材会社のCA職がこのカテゴリに分類されている可能性
+- リクルーター3%: 企業は検索しているが、役職としてはCA等に分類
+
+**検索に使用された役職**:
+
+| 検索キーワード（役職） | 割合 |
+|------------------------|------|
+| 品質保証エンジニア | 1.5% |
+
+**解釈**:
+- 「品質保証エンジニア」検索でプロフィールがヒット
+- KakeiBon 525テスト、Promps 81テストの実績が効いている可能性
+- TDD/テスト戦略の記事がQA人材を探すリクルーターの目に留まった
+- 残り98.5%は役職名以外（Rust、Tauri、AI、53歳等）で検索された可能性
+
+**発見**: テスト品質へのこだわりが、意図せずQAエンジニア市場にもリーチ
 
 ---
 
