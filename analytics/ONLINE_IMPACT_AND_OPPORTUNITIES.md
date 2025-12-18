@@ -1,6 +1,6 @@
 # Online Impact and Opportunities
 
-**Last Updated**: 2025-12-18 JST (LinkedIn search user analysis, LinkedIn 102 views, X impression surge)
+**Last Updated**: 2025-12-18 JST (Nagoya iOS user, LinkedIn search analysis, X impression surge)
 **Purpose**: Track online influence, real-world opportunities, and development implications
 **Keywords**: impact, 影響, opportunities, 機会, SEO, Google, Qiita, GitHub, engagement, エンゲージメント, authority, 権威性, career, キャリア, agent, エージェント, marketing, マーケティング
 
@@ -270,6 +270,61 @@ KakeiBon公式アカウント（過去）
 - Androidスマホからのアクセス
 - おそらくX投稿経由（サンドボックスで追跡不可）
 
+### 名古屋ユーザー分析 (2025-12-18 朝8時台)
+
+**観測データ**:
+| 項目 | 値 |
+|------|-----|
+| 地域 | 名古屋 |
+| デバイス | Mobile (iPhone) |
+| OS | iOS 18.7.1（最新26.x系の1つ前） |
+| チャネル | Direct + Unassigned (not set) |
+| データ状態 | 三角アラート（不完全） |
+| エンゲージメント | **18秒** |
+| 時間帯 | 8時台 |
+| アクセス記事 | 3/4 システム開発シリーズ |
+| 確認方法 | 見込み顧客の発掘レポート |
+
+**導出ロジック**:
+
+**Step 1: 三角アラートパターンの確認**
+- Direct + Unassigned + 三角アラート = 既知のセッション分割パターン
+- 新宿（Windows/Edge）と同じ構造
+- **iOS でも三角アラートが発生することを確認**
+
+**Step 2: iOS バージョンからの推測**
+- iOS 18.7.1 = 最新26.x系にアップデートしていない
+- iOS 26.x の新UI「Liquid Glass」は一般的に不評
+- → 新バージョンに懐疑的 or UI変更を嫌う層
+
+**Step 3: 名古屋の地域性との一致**
+- 名古屋気質: 普段は倹約、祝い事で大盤振る舞い
+- 「見栄より実」の合理主義
+- 無駄なアップデートをしない = 名古屋的価値観と一致
+
+**Step 4: アクセス記事との一致**
+- 3/4 システム開発シリーズ = 実務的な課題解決記事
+- 「なぜうまくいかない？」= 本質を知りたい姿勢
+- Google検索1位記事 → 検索経由の可能性
+
+**Step 5: 時間帯の解釈**
+- 8時台 = 名古屋モーニング文化の可能性
+- 喫茶店でコーヒー + スマホで技術記事
+- 18秒 = サッと目を通した
+
+**ユーザープロファイル**:
+| 特性 | 推定 |
+|------|------|
+| 職種 | システム開発関連のビジネスパーソン |
+| 思考 | 実用主義、本質重視 |
+| 技術リテラシー | 中〜高（iOS設定を意識的に管理） |
+| 地域性 | 名古屋気質（倹約＋合理主義） |
+
+**意義**:
+- 三角アラートパターンが**iOS でも発生**することを確認
+- Windows/Edge だけでなく、iOSプライバシー機能でも同様の現象
+- 「おっちゃん」記事のターゲット層（中部圏）にリーチしている証拠
+
 ### OSサンドボックスとGA4追跡の法則 (2025-12-18)
 
 **OS別サンドボックス影響**:
@@ -277,11 +332,13 @@ KakeiBon公式アカウント（過去）
 | OS | サンドボックス | referrer影響 | GA4での見え方 |
 |----|---------------|--------------|---------------|
 | Android | ✅ アプリ間分離 | 高 | (direct)/(none) + (not set) |
+| **iOS** | ✅ Safari ITP / ATT | 高 | Direct + Unassigned + 三角アラート |
 | Windows | ✅ UWP/Store版/Defender | 中〜高 | Direct + Unassigned |
 | Linux | △ 伝統的権限モデル | 低 | referrer正常に取得 |
 
 **実例との対応**:
 - 越谷（Android）: サンドボックスで referrer 欠落 → (not set)
+- **名古屋（iOS 18.7.1）: Safari ITP/ATT → Direct + Unassigned + 三角アラート**
 - 新宿（Windows/Edge）: Defender介入 → Unassigned
 - 広島（Linux）: はてブ referrer 正常取得
 
