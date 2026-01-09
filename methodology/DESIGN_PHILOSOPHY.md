@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Project Purpose
+## [Target] Project Purpose
 
 Promps is a **DSL (Domain Specific Language) to Natural Language translator** for AI prompt generation.
 
@@ -28,7 +28,7 @@ UserエンティティとOrderエンティティの関係性を考慮し、
 
 ---
 
-## 🧠 Thinking Methodology
+## [Brain] Thinking Methodology
 
 ### Data-Driven, Bottom-Up Approach
 
@@ -46,7 +46,7 @@ UserエンティティとOrderエンティティの関係性を考慮し、
 
 ---
 
-## 🔑 Critical Design Decision: _N: Prefix
+## [Key] Critical Design Decision: _N: Prefix
 
 ### Purpose: AST-like Annotation System
 
@@ -88,7 +88,7 @@ The `_N:` prefix is **NOT** just a marker - it's a **syntactic annotation** simi
 
 ---
 
-## 📊 Responsibility Separation (Inter-App)
+## [Chart] Responsibility Separation (Inter-App)
 
 ### What Promps DOES (Syntax Check)
 
@@ -118,7 +118,7 @@ The `_N:` prefix is **NOT** just a marker - it's a **syntactic annotation** simi
 
 ---
 
-## 🇯🇵 Japanese Language Challenge
+## [J][P] Japanese Language Challenge
 
 ### Why Logic Check is the Bottleneck
 
@@ -160,18 +160,18 @@ With _N:
 
 ---
 
-## 🏗️ Architecture: Compiler AST Analogy
+## [Build]️ Architecture: Compiler AST Analogy
 
 ### Promps ≈ Compiler Structure
 
 | Compiler | Promps | Status |
 |----------|--------|--------|
 | Lexical Analysis (Lexer) | Tokenization (_N: identification) | ✅ Phase 0 |
-| Syntax Analysis (Parser) | AST construction | 🔜 Phase N |
-| Syntax Validation | Pattern matching | 🔜 Phase N |
+| Syntax Analysis (Parser) | AST construction | [Soon] Phase N |
+| Syntax Validation | Pattern matching | [Soon] Phase N |
 | Semantic Analysis | - | ❌ AI/LLM responsibility |
-| Type Checking | Noun relationship check | 🔜 Phase N |
-| Intermediate Representation | Normalized AST | 🔜 Phase N+1 |
+| Type Checking | Noun relationship check | [Soon] Phase N |
+| Intermediate Representation | Normalized AST | [Soon] Phase N+1 |
 | Code Generation | Prompt output | ✅ Phase 0 |
 
 ### Current Implementation (Phase 0)
@@ -216,7 +216,7 @@ fn validate_pattern(parts: &[PromptPart]) -> Result<()> {
 
 ---
 
-## 🎯 Implementation Strategy
+## [Target] Implementation Strategy
 
 ### Phase Breakdown
 
@@ -274,7 +274,7 @@ validate_noun_relationships() {
 
 ---
 
-## 🏛️ Layered Architecture: Critical Design Philosophy
+## [Building]️ Layered Architecture: Critical Design Philosophy
 
 ### The Non-Breaking Extension Principle
 
@@ -531,7 +531,7 @@ Each new phase adds a layer without modifying existing layers. This is the **fou
 
 ---
 
-## 🔗 Loose Coupling: An Emergent Property
+## [Link] Loose Coupling: An Emergent Property
 
 **Last Updated**: 2025-12-08
 
@@ -794,7 +794,7 @@ This is the **power of architectural patterns** - they give you benefits you did
 
 ---
 
-## 📐 Logic Check Scope
+## [Ruler] Logic Check Scope
 
 ### What to Validate
 
@@ -818,7 +818,7 @@ This is the **power of architectural patterns** - they give you benefits you did
 
 ---
 
-## 🚀 Current Status (Phase 0 Complete)
+## [Rocket] Current Status (Phase 0 Complete)
 
 ### Achievements
 
@@ -870,7 +870,7 @@ This is the **power of architectural patterns** - they give you benefits you did
 
 ---
 
-## 💡 Key Insights
+## [Idea] Key Insights
 
 1. **_N: is not a marker, it's type information** (like compiler annotations)
 2. **Logic check ≠ Semantic analysis** (syntax only, meaning is AI's job)
@@ -880,7 +880,7 @@ This is the **power of architectural patterns** - they give you benefits you did
 
 ---
 
-## 🤖 AI Collaboration Strategy
+## [Robot] AI Collaboration Strategy
 
 ### Understanding AI's Probabilistic Nature
 
@@ -987,7 +987,7 @@ By separating syntax (Promps) from semantics (AI), we allow AI to use its probab
 
 ---
 
-## 🎨 Business Model
+## [Art] Business Model
 
 **Open Core Strategy:**
 - Phase 0-2: MIT License (Open Source, Free)
@@ -997,7 +997,7 @@ Repository will remain private initially, can be made public later.
 
 ---
 
-## 🏗️ Phase 1 Technical Architecture (Confirmed)
+## [Build]️ Phase 1 Technical Architecture (Confirmed)
 
 **Last Confirmed**: 2025-11-25
 

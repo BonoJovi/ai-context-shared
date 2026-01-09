@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Overview
+## [Target] Overview
 
 This document captures battle-tested development methodologies derived from real-world projects (primarily KakeiBon, which achieved 525 tests with 100% success rate). These practices enable:
 
@@ -18,7 +18,7 @@ This document captures battle-tested development methodologies derived from real
 
 ---
 
-## 🏗️ Core Principles
+## [Build]️ Core Principles
 
 ### 1. Thorough Upfront Design
 
@@ -940,7 +940,7 @@ Likely actual: Your estimate (based on KakeiBon evidence)
 
 ---
 
-## 🎯 Integrated Workflow Example
+## [Target] Integrated Workflow Example
 
 Here's how all methodologies work together in practice:
 
@@ -1003,7 +1003,7 @@ AI: Extraction done
 
 ---
 
-## 📊 Quantitative Evidence
+## [Chart] Quantitative Evidence
 
 ### KakeiBon Project Results
 
@@ -1039,7 +1039,7 @@ AI: Extraction done
 
 ---
 
-## 🚀 Why This Works
+## [Rocket] Why This Works
 
 ### Fundamental Insights
 
@@ -1078,7 +1078,7 @@ They may not work if:
 
 ---
 
-## 📝 Application to New Projects
+## [Note] Application to New Projects
 
 ### For Promps (and Future Projects)
 
@@ -1126,7 +1126,7 @@ Apply:
 
 ---
 
-## 🖥️ The CPU Architecture Analogy: Why This Works
+## [Desktop]️ The CPU Architecture Analogy: Why This Works
 
 ### Perfect Structural Correspondence
 
@@ -1668,7 +1668,7 @@ This is why:
 
 ---
 
-## 🎓 Learning and Evolution
+## [Graduate] Learning and Evolution
 
 ### Continuous Improvement
 
