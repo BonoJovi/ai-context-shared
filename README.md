@@ -1,6 +1,6 @@
 # AI Context Shared
 
-**Last Updated**: 2025-12-15
+**Last Updated**: 2026-01-28
 
 Shared AI context files for BonoJovi's Rust projects.
 
@@ -28,6 +28,7 @@ ai-context-shared/
 │   ├── NECESSITY_DRIVEN_DESIGN.md
 │   └── ...
 ├── workflows/           # Common workflow guides
+│   ├── CRITICAL_OPERATIONS.md
 │   ├── DOCUMENTATION_CREATION.md
 │   └── GITHUB_PROJECTS.md
 └── README.md
@@ -80,6 +81,7 @@ Architectural and development insights derived from real-world experience:
 
 ### workflows/
 Common workflow documentation:
+- **CRITICAL_OPERATIONS.md**: Release checklists, repository verification (prevents common mistakes)
 - **DOCUMENTATION_CREATION.md**: Guidelines for creating documentation
 - **GITHUB_PROJECTS.md**: GitHub project management
 
