@@ -1,0 +1,58 @@
+name: Notify Dependent Repositories
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Promps
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/Promps
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
+
+      - name: Notify Promps-Pro
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/Promps-Pro
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
+
+      - name: Notify Promps-Ent
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/Promps-Ent
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
+
+      - name: Notify Promps-Edu
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/Promps-Edu
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
+
+      - name: Notify KakeiBonByRust
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/KakeiBonByRust
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
+
+      - name: Notify Baconian
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_PAT }}
+          repository: BonoJovi/Baconian
+          event-type: submodule-update
+          client-payload: '{"submodule": ".ai-context/shared"}'
