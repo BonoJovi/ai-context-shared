@@ -17,6 +17,18 @@ git branch --show-current  # Confirm branch
 
 **Why**: Prevents editing wrong repository (especially with multiple projects open)
 
+### AI Must Ask User
+
+**When to ask which repository to work on:**
+- At the start of development work
+- When switching between tasks
+- When working with related repositories (e.g., Free/Pro versions, main/website repos)
+
+**Example prompt:**
+> "Which repository should I make changes to? (e.g., Promps, Promps-Pro, promps-website)"
+
+**Why**: User may have multiple related repositories. Assuming the wrong one leads to wasted effort and potential confusion.
+
 ---
 
 ## 2. Release Checklist - Version Files
