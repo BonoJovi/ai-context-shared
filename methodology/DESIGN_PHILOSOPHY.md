@@ -501,34 +501,6 @@ Benefits:
 - Extensible for future phases
 ```
 
-### Future Phase Extensions
-
-This pattern extends naturally to future phases:
-
-```
-┌─────────────────────────────────────┐
-│   Phase N+2: Optimization Layer    │
-│   optimize_prompt()                 │
-└────────────┬────────────────────────┘
-             │
-┌─────────────────────────────────────┐
-│   Phase N+1: Serialization Layer   │
-│   save_project() / load_project()   │
-└────────────┬────────────────────────┘
-             │
-┌─────────────────────────────────────┐
-│   Phase N: Validation Layer         │
-│   parse_input_checked()             │
-└────────────┬────────────────────────┘
-             │
-┌─────────────────────────────────────┐
-│   Phase 0: Core Parsing Layer       │
-│   parse_input() / generate_prompt() │
-└─────────────────────────────────────┘
-```
-
-Each new phase adds a layer without modifying existing layers. This is the **foundation of sustainable software architecture**.
-
 ---
 
 ## [Link] Loose Coupling: An Emergent Property
@@ -601,146 +573,27 @@ Changes are local = Loose coupling
 
 ---
 
-### Module Separation Becomes Trivial
+### Module Separation Benefits
 
-**1. Natural File Division**
-
-```
-src/
-├── lib.rs              # Phase 0 (Core)
-├── modules/
-│   ├── validation.rs   # Phase N
-│   ├── serialization.rs # Phase N+1
-│   └── layout.rs       # Phase N+2
-```
-
-Each Phase = Independent file → Directly becomes a module
-
-**2. Test Independence**
-
-```rust
-// Phase 0 tests (independent of Phase N)
-#[test]
-fn test_parse_input() {
-    let result = parse_input("_N:User");
-    assert_eq!(result.len(), 1);
-}
-
-// Phase N tests (uses Phase 0, tests Phase N)
-#[test]
-fn test_validate_pattern() {
-    let parts = parse_input("_N:User が _N:Order を");  // Use Phase 0
-    assert!(validate_pattern(&parts).is_ok());          // Test Phase N
-}
-```
-
-Even if Phase 0 is broken, Phase N tests can be written (mockable).
-
-**3. Easy Refactoring**
-
-```rust
-// Completely change Phase N implementation
-// Phase 0 remains untouched
-
-// Before
-pub fn validate_pattern(parts: &[PromptPart]) -> Result<()> {
-    // Implementation A
-}
-
-// After (complete rewrite)
-pub fn validate_pattern(parts: &[PromptPart]) -> Result<()> {
-    // Implementation B (totally different algorithm)
-}
-
-// Phase 0: Zero changes!
-```
+| Benefit | Description |
+|---------|-------------|
+| **Natural File Division** | Each Phase = Independent file (lib.rs, validation.rs, etc.) |
+| **Test Independence** | Phase tests can be written/run independently |
+| **Easy Refactoring** | Change Phase N without touching Phase 0 |
+| **Parallel Development** | Multiple developers work on different phases |
+| **Risk Isolation** | Disable buggy phase, others continue working |
 
 ---
 
-### Practical Benefits of Loose Coupling
+### Code Quality Metrics (Automatic Improvement)
 
-**1. Parallel Development**
-
-```
-Developer A: Develops Phase 3 (Verb blocks)
-Developer B: Develops Phase N (Logic check)
-  ↓
-If Phase 0 is stable, no conflicts
-```
-
-**2. Incremental Replacement**
-
-```
-Phase N Implementation A is slow
-  ↓
-Develop Phase N Implementation B on separate branch
-  ↓
-Implementation B is faster → Swap
-  ↓
-Phase 0, N+1, N+2: No impact
-```
-
-**3. Easy Feature Toggle**
-
-```rust
-// To disable Phase N
-pub fn parse_input_checked(input: &str) -> Result<Vec<PromptPart>, ValidationError> {
-    let parts = parse_input(input);
-    // validate_pattern(&parts)?;  // ← Just comment out
-    Ok(parts)
-}
-```
-
-**4. Risk Isolation**
-
-```
-Phase N has a critical bug
-  ↓
-Disable Phase N temporarily
-  ↓
-Phase 0, Phase 1, Phase 2 continue working
-  ↓
-System remains partially functional
-```
-
----
-
-### Comparison: Traditional vs Layered
-
-| Aspect | Traditional | Layered Architecture |
-|--------|-------------|---------------------|
-| **Coupling** | Functions call each other bidirectionally | Unidirectional dependency |
-| **Change Impact** | Ripple effect across modules | Isolated to single layer |
-| **Testing** | Complex mocking needed | Simple, independent tests |
-| **Refactoring** | High risk, wide impact | Low risk, local impact |
-| **Parallel Development** | Difficult (merge conflicts) | Easy (layer isolation) |
-| **Module Extraction** | Requires careful planning | Natural file boundaries |
-
----
-
-### Code Quality Metrics Improvement
-
-With layered architecture, the following metrics improve automatically:
-
-**Cohesion**: ⬆️ High
-- Each layer has a single, well-defined purpose
-- Functions within a layer work together closely
-
-**Coupling**: ⬇️ Low
-- Layers interact only through stable interfaces
-- No bidirectional dependencies
-
-**Testability**: ⬆️ High
-- Each layer can be tested independently
-- Mock dependencies are minimal
-
-**Maintainability**: ⬆️ High
-- Changes are localized to one layer
-- Understanding requires reading only relevant layer
-
-**Reusability**: ⬆️ High
-- Lower layers (e.g., Phase 0) can be reused in different contexts
-- Each layer is self-contained
+| Metric | Level | Reason |
+|--------|-------|--------|
+| **Cohesion** | High | Each layer has single purpose |
+| **Coupling** | Low | Unidirectional dependencies via stable interfaces |
+| **Testability** | High | Independent layer testing |
+| **Maintainability** | High | Changes localized to one layer |
+| **Reusability** | High | Lower layers reusable in different contexts |
 
 ---
 
