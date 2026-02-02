@@ -30,6 +30,16 @@
 
 ---
 
+## Utility Scripts
+
+| Script | Path | Description |
+|--------|------|-------------|
+| **analytics.sh** | `$HOME/Data1/Linux/Projects/Rust/promps-website/scripts/analytics.sh` | Cloudflare Analytics for promps.org |
+
+**Note**: User has symlinks in `~/bin/` for global access.
+
+---
+
 ## Notes
 
 - All projects use Git submodule `ai-context-shared/` for shared context
