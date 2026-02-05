@@ -1,6 +1,6 @@
 # Project Paths
 
-**Last Updated**: 2026-01-22
+**Last Updated**: 2026-02-05
 **Purpose**: Project directory paths for AI context persistence across /compact
 
 ---
@@ -22,11 +22,11 @@
 - **Tests**: 800+ test cases
 - **Key TODO**: ARIA support planned for v1.4.0 (2026-05)
 
-### Promps
+### Promps / Promps-Ent
 - **Description**: AI prompt generator with Blockly.js GUI
 - **Tech Stack**: Rust, Tauri v2, Blockly.js
-- **Tests**: 102 tests (Backend 26 + Frontend 76)
-- **Current Phase**: Phase 3-2
+- **Tests**: 647 tests (Backend 176 + Frontend 471)
+- **Current Version**: v1.4.0 Ent
 
 ---
 
