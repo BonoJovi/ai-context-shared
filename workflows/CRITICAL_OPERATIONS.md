@@ -50,7 +50,28 @@ grep -h "version" Cargo.toml tauri.conf.json package.json | head -3
 
 ---
 
-## 3. Pre-Commit Checklist
+## 3. Branch Operation Rules
+
+**コードの編集は必ず `dev` ブランチで行う。**
+
+- 新機能・修正・スクリプト追加など、すべてのコード変更は `dev` で実施
+- `main` ブランチでは cherry-pick もしくは merge のみとする（特に理由がない限り）
+- フロー: `dev` で作業 → テスト → `dev` から `main` へ merge
+
+**Why**: 全エディション（Free/Pro/Ent）で統一されたワークフローを維持し、ビルドテスト時のブランチ切り替え手順を一貫させるため
+
+**GitHubへのタグプッシュ前に、必ずローカルでpre-releaseチェックスクリプトを実行する。**
+
+```bash
+./scripts/pre-release-check.sh
+```
+
+- バージョン整合性・ビルド・テストを一括で検証してからタグをプッシュする
+- CI失敗を未然に防ぎ、リリースの手戻りを回避するため
+
+---
+
+## 4. Pre-Commit Checklist
 
 - [ ] All tests passing (`cargo test`)
 - [ ] No unintended files staged (`git status`)
@@ -59,7 +80,7 @@ grep -h "version" Cargo.toml tauri.conf.json package.json | head -3
 
 ---
 
-## 4. Release Workflow Summary
+## 5. Release Workflow Summary
 
 1. **Update versions** (3 files above)
 2. **Update documentation** (README.md, ESSENTIAL.md, etc.)
@@ -72,7 +93,7 @@ grep -h "version" Cargo.toml tauri.conf.json package.json | head -3
 
 ---
 
-## 5. Quick Verification Commands
+## 6. Quick Verification Commands
 
 ```bash
 # All-in-one pre-release check
