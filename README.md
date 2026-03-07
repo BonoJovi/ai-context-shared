@@ -4,6 +4,13 @@
 
 Shared AI context files for BonoJovi's Rust projects.
 
+## Always Load First
+
+**Developer Profile must be loaded at the start of every session:**
+- `@developer/YOSHIHIRO_NAKAHARA_PROFILE.md`
+
+This file contains the developer's name, AI assistant name (ヴェス), and essential context for collaboration.
+
 ## Purpose
 
 This repository contains common AI context files that are shared across multiple projects via Git submodules:

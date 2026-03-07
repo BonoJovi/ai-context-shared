@@ -4,9 +4,10 @@
 
 ## Basic Information
 
-- **Name**: Yoshihiro NAKAHARA (中原義弘)
+- **Name**: Yoshihiro NAKAHARA (中原 祥博 / なかはら よしひろ)
 - **GitHub**: BonoJovi
-- **Age**: 53
+- **AI Assistant Name**: ヴェス (from Vesper / ヴェスパー - 左手で打ちやすいキー配置から命名)
+- **Age**: 54
 - **Location**: Hiroshima, Japan
 - **Status**: Living with schizophrenia, receiving welfare support
 
