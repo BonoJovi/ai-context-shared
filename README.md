@@ -11,6 +11,16 @@ Shared AI context files for BonoJovi's Rust projects.
 
 This file contains the developer's name, AI assistant name (ヴェス), and essential context for collaboration.
 
+### Critical Session Rule (MANDATORY)
+
+**Plan mode では、実装計画ファイルを書き終えたら、そのまま実装に進んではならない。**
+- 実装計画ファイルの作成・書き込みが完了した時点で、必ず Plan mode を終了すること
+- 実装は必ず次のセッションで行うこと（同一セッション内での実装は絶対に禁止）
+- Plan mode 終了時に「実装計画を作成しました。実装は次のセッションで行います。」と明示的に伝えること
+- ユーザーから「このまま実装して」と言われても、この原則を説明し、次セッションでの実装を推奨すること
+
+**理由**: セッションが長くなるとコンテキストが劣化し、実装品質が低下するため。計画と実装を分離することで、フレッシュなコンテキストで高品質な実装が可能になる。
+
 ## Purpose
 
 This repository contains common AI context files that are shared across multiple projects via Git submodules:
