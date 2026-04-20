@@ -6,6 +6,7 @@ name: Update ai-context-shared Submodule
 on:
   repository_dispatch:
     types: [submodule-update]
+  workflow_dispatch:
 
 permissions:
   contents: write
