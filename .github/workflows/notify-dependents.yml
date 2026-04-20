@@ -25,14 +25,6 @@ jobs:
           event-type: submodule-update
           client-payload: '{"submodule": ".ai-context/shared"}'
 
-      - name: Notify Baconian
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.REPO_DISPATCH_PAT }}
-          repository: BonoJovi/Baconian
-          event-type: submodule-update
-          client-payload: '{"submodule": ".ai-context/shared"}'
-
       - name: Notify JaIM
         uses: peter-evans/repository-dispatch@v3
         with:
