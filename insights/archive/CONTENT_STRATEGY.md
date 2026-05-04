@@ -1,5 +1,13 @@
 # コンテンツ戦略：実務層へのリーチ
 
+> **⚠️ ERRATA (2026-05-05)**
+>
+> この文書には KakeiBon の規模を **「35,000 行」** とした記述があります（タイトル例・キーワード例として）。これは **誤り** で、v1.0.0 時点の実数は Code total **10,394 行** / Grand total **10,396 行** です。本文の「35,000 行」を含む例示・キーワードはそのまま使わず、新規発信時は [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) の正確な数値を参照してください。
+>
+> This archived strategy document uses **"35,000 lines"** as an example metric in title templates and keyword strategies. The figure is **incorrect** (actual v1.0.0: 10,394 / 10,396). Do not reuse the 35,000 examples; instead use the canonical figures in [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) when drafting new content.
+
+---
+
 **Last Updated**: 2025-12-12
 **Purpose**: データ分析から導出されたコンテンツ戦略
 **Keywords**: content strategy, コンテンツ戦略, target audience, ターゲット読者, title optimization, タイトル最適化, keyword strategy, キーワード戦略, practical engineers, 実務層, enterprise readers, 企業読者

@@ -1,5 +1,15 @@
 # ソフトウェアを生命体として捉える哲学
 
+> **⚠️ ERRATA (2026-05-05)**
+>
+> この文書には「総コード行数：35,000 行以上」の記述がありますが、これは **誤り** です。v1.0.0 時点の実数は Code total **10,394 行** / Grand total **10,396 行** です。「35,000 行」は v1.0.2 時点の Code total（38,562 行）に近く、認識ズレが起きていた可能性が高いです。
+>
+> 全タグの正確な行数履歴は [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) を一次情報源としてください。
+>
+> This archived document states "Total code lines: 35,000+" — this is **incorrect** for v1.0.0 (actual: 10,394 / 10,396). The 35,000 figure is closest to the v1.0.2 code total (38,562). See [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) for canonical figures.
+
+---
+
 **Last Updated**: 2025-11-26
 **Author**: BonoJovi (KakeiBon開発者)
 **Keywords**: software as organism, ソフトウェアを生命体として, software philosophy, ソフトウェア哲学, organic growth, 有機的成長, evolution, 進化, living system, 生命システム, adaptation, 適応, emergent behavior, 創発的挙動, holistic view, 全体的視点

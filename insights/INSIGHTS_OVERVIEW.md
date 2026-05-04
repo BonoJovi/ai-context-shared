@@ -72,10 +72,10 @@ NO  → Leave as is (even if it looks similar)
 **Core Insight**: AI collaboration enables cognitive extension, not just code generation.
 
 **Evidence (KakeiBon)**:
-- 35,000 lines in 1 month
+- v1.0.0 release: ~10,400 lines (code + docs); v1.0.2 (shortly after): ~84,300 lines; v2.1.0: ~96,700 lines. See [CODE_LINE_HISTORY.md](../../../docs/etc/CODE_LINE_HISTORY.md) for the canonical per-tag table.
 - Developer wrote 0 lines of Rust (couldn't write Rust)
-- 11.67x productivity vs. original version
-- 525 tests, 100% pass, 0 bugs
+- Productivity multipliers previously cited (e.g. "11.67×") were based on a now-corrected baseline of 35,000 lines and should be re-derived from `CODE_LINE_HISTORY.md` before re-publication.
+- Test counts vary by release; see CHANGELOG for the figure of each tag.
 
 **Key**: Human provides mental model + architecture; AI provides implementation.
 

@@ -1,5 +1,15 @@
 # オンライン影響力の実世界への波及
 
+> **⚠️ ERRATA (2026-05-05)**
+>
+> この文書は KakeiBon の規模を **「35,000 行」**（v1.0.0 時点）として記述していますが、これは **誤り** です。v1.0.0 時点の実数は Code total **10,394 行** / Grand total **10,396 行** です。本文中の「35,000 行、100% AI 生成、生産性 15-30 倍」「実証実績（35,000 行、525 テスト）」等の数値は再公開しないでください。
+>
+> 全タグの正確な行数履歴は [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) を一次情報源としてください。
+>
+> This archived document references "35,000 lines, 100% AI-generated, 15-30× productivity" and similar claims as evidence of online influence. The 35,000 figure is **incorrect** for v1.0.0 (actual: 10,394 / 10,396). Do not republish those numbers; use [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) as the canonical source.
+
+---
+
 **Last Updated**: 2025-12-12
 **Purpose**: データ分析から見えた、オンラインコンテンツの実世界への影響
 **Keywords**: real world impact, 実世界への影響, online influence, オンライン影響力, career opportunities, キャリア機会, data analysis, データ分析, GA4, GitHub analytics, conversion rate, コンバージョン率

@@ -1,5 +1,15 @@
 # AI協働による認知拡張の体験
 
+> **⚠️ ERRATA (2026-05-05)**
+>
+> この文書は KakeiBon の規模を **「35,000 行」**（v1.0.0 時点）として記述していますが、これは **誤り** です。v1.0.0 時点の実数は Code total **10,394 行** / Grand total **10,396 行** です。「35,000 行」は v1.0.2 時点の Code total（38,562 行）に近く、認識ズレが起きていた可能性が高いです。本文中の「35,000 行 ÷ 1ヶ月」「生産性比 11.67 倍」等の派生数値も同じ理由で正しくありません。
+>
+> 全タグの正確な行数履歴は [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) を一次情報源としてください。本文は **当時の認識の記録** としてそのまま保存しますが、引用・再公開はしないでください。
+>
+> This archived document treats KakeiBon's v1.0.0 size as **"35,000 lines"**, which is **incorrect**. The actual v1.0.0 figures are 10,394 lines (code) / 10,396 lines (grand total). The 35,000 figure is closest to the v1.0.2 code total (38,562). Derived numbers such as "35,000 lines / month" and the 11.67× productivity ratio are also wrong for the same reason. Refer to [`docs/etc/CODE_LINE_HISTORY.md`](../../../../docs/etc/CODE_LINE_HISTORY.md) for canonical figures. The inline references are preserved as a record of the analysis at the time and should not be cited or republished.
+
+---
+
 **Last Updated**: 2025-11-26
 **Author**: BonoJovi (KakeiBon開発者)
 **Keywords**: cognitive augmentation, 認知拡張, AI collaboration, AI協働, Douglas Engelbart, intelligence amplification, 知性拡張, human-AI synergy, 人間とAIの協調, augmented intelligence, 拡張知能, productivity, 生産性, cognitive offload, 認知負荷軽減
