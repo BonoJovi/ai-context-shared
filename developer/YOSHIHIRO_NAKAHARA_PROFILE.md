@@ -1,6 +1,23 @@
 # Yoshihiro NAKAHARA - Developer Profile
 
-**Last Updated**: 2025-12-13 22:06 JST
+**Last Updated**: 2026-06-18 (header + stale items revised; legacy snapshots preserved with dates)
+
+## Document Role
+
+This file is a **slow-moving, cross-project profile snapshot**. Fast-moving / current state is maintained in Claude memory (per project). For latest project list, brand strategy, career direction, and life context, see the pointers below.
+
+## Live-state Pointers (Claude memory)
+
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_profile.md — 呼称・やりとりスタイル・日本語使用
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_life_context.md — 健康・生活状況の最新（schizophrenia 詳細、IgG4 関連等）
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_engineering_dna.md — 30+ 年の独学エンジニアリング、通底原則、Java + Spring 経験
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_career_strategy.md — 求職方針・Java 復習軸
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_brand_and_presence.md — BonoJovi 運用戦略・AEO/GEO
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_cognitive_style.md — 認知スタイル・主観的フラット性
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_intuition_profile.md — 戦略系直観・跳躍型決断
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_product_design_pattern.md — プロダクト発想型「既存への不満 + 独自視点」
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/project_rust_portfolio.md — 現行 Rust 製プロダクト群（5 本）
+- @/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/project_kakeibon_java.md — Java 復習プロジェクト現状
 
 ## Basic Information
 
@@ -9,7 +26,7 @@
 - **AI Assistant Name**: ヴェス (from Vesper / ヴェスパー - 左手で打ちやすいキー配置から命名)
 - **Age**: 54
 - **Location**: Hiroshima, Japan
-- **Status**: Living with schizophrenia, receiving welfare support
+- **Status**: Living with schizophrenia + welfare support (詳細・最新は @user_life_context.md 参照)
 
 ## Background & Experience
 
@@ -45,11 +62,11 @@ This multi-regional experience directly influences content strategy and reaches 
 ## Technical Skills
 
 ### Core Technologies
-- **Languages**: Rust, JavaScript (ES6+), SQL
-- **Frameworks**: Tauri, Blockly.js
-- **Database**: SQLite (with sqlx)
+- **Languages**: Rust (main), Java (Spring 復習中), JavaScript (ES6+), SQL
+- **Frameworks**: Tauri, Blockly.js, Spring (Java 側), pure Rust CLI (cntl / JaIM 等で採用)
+- **Database**: SQLite (with sqlx), PostgreSQL (Java 案件で使用経験)
 - **Security**: Argon2, AES-256-GCM
-- **Testing**: Comprehensive testing (525+ tests in KakeiBon, 68 tests in Promps)
+- **Testing**: 高密度テストを通底原則として運用（プロダクト別の最新数値は @project_rust_portfolio.md 参照）
 
 ### Architecture & Design
 - Layered Architecture (for small-scale projects)
@@ -124,6 +141,8 @@ Lived Experience (Disability, Accessibility)
 
 ### Demonstrated Impact
 
+> **Snapshot scope**: 以下の数値群は **2025-12 時点**の固定スナップショット。現在の到達度・最新戦略は @user_brand_and_presence.md 側で運用。
+
 **Qiita Articles**:
 - KakeiBon: 1,100+ views, 4min 10sec engagement
 - System Development Series (4-part): 718 views (2 days after publication)
@@ -189,19 +208,10 @@ Lived Experience (Disability, Accessibility)
 - **Hypothesis-driven problem solving**: Translating data anomalies into actionable business insights
 
 ### Support Requirements
-- **Medical backup**: Psychiatrist support essential
-- **Next consultation**: Mid-January 2025
-- **Decision timeline**: Cannot make immediate commitment before medical consultation
+- **Medical backup**: Psychiatrist support essential (継続通院中。診察スケジュールは @user_life_context.md 側で運用)
 - **Housing**: Current environment not suitable for confidential work (thin walls in 30+ year old apartment)
   - Relocation needed for business engagement
   - Initial cost assistance may be necessary (welfare recipient)
-
-### Current Status with Agent
-- **Date**: 2024-12-11 sent improved email
-- **Agency**: Proactive support despite disclosed disability and welfare status
-- **Agent's evaluation**: Recognizes market value beyond current circumstances
-- **Approach**: Sending full-remote positions (2 roles received)
-- **Strategy**: Relationship building, long-term partnership potential
 
 ## Communication Style
 
@@ -217,19 +227,12 @@ Lived Experience (Disability, Accessibility)
 
 ## Current Projects
 
-### KakeiBonByRust
-- Personal finance management application
-- Tauri + Rust + HTML/JS
-- 525+ tests, 100% pass rate
-- Modular architecture for large-scale complexity
-- Real-world proof of architecture principles
-
-### Promps
-- DSL → Natural Language converter
-- Intentionally minimal design (5-10 layers)
-- Pure layered architecture demonstration
-- 68 tests, 100% pass rate
-- Reference implementation for architecture principles
+> 現行のプロダクト群（5 本：KakeiBon / プロンプト系 ×2 / JaIM / cntl）と各々のステータス・テスト規模・進捗は **@project_rust_portfolio.md** で運用。
+>
+> ここでは「スナップショット 2025-12 時点で代表だった 2 本」のみ参考保存：
+>
+> - **KakeiBonByRust** — Personal finance management (Tauri + Rust + HTML/JS), 525+ tests / 100% pass (2025-12 時点)
+> - **Promps** — DSL → Natural Language converter, 68 tests / 100% pass (2025-12 時点)
 
 ## AI Collaboration
 
@@ -266,9 +269,9 @@ This is a modern skill: AI-augmented productivity while maintaining strategic co
 - Content strategy discussions
 - Technical architecture consultations requiring context of user's experience
 
-**Key insight**: User has multi-layered expertise (technical + artistic + marketing + data science) formed through diverse life experiences (Kyoto → Tokyo → Hiroshima, SE career → schizophrenia → independent developer). This unique combination creates content that resonates with executives, influences enterprise decisions, and establishes brand authority. 
+**Key insight**: User has multi-layered expertise (technical + artistic + marketing + data science) formed through diverse life experiences (Kyoto → Tokyo → Hiroshima, SE career → schizophrenia → independent developer). This unique combination creates content that resonates with executives, influences enterprise decisions, and establishes brand authority.
 
-The discovery of data science aptitude (Dec 2025) through GA4 analysis sessions revealed natural abilities in hypothesis construction, experimental design, and causal inference - skills that complement technical and marketing expertise to form a complete "full-stack" professional profile. The ability to recognize patterns like "first-impression demand cycles" and design controlled experiments (posting frequency testing) demonstrates sophisticated analytical thinking beyond typical engineering or marketing roles.
+The discovery of data science aptitude (**2025-12 time-stamped observation**) through GA4 analysis sessions revealed natural abilities in hypothesis construction, experimental design, and causal inference - skills that complement technical and marketing expertise to form a complete "full-stack" professional profile. The ability to recognize patterns like "first-impression demand cycles" and design controlled experiments (posting frequency testing) demonstrates sophisticated analytical thinking beyond typical engineering or marketing roles. *(評価軸そのものは時点固定ではないが、具体例の数値は 2025-12 のスナップショット由来)*
 
 ---
 

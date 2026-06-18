@@ -1,7 +1,9 @@
 # Online Impact Summary
 
-**Last Updated**: 2026-02-03
-**Purpose**: Condensed summary of online influence and opportunities
+> **⚠ Snapshot 2025-12 〜 2026-02**: 本ドキュメントは過去時点の固定スナップショットです。現在の運用戦略・最新のリーチ/エンゲージメント観測は **@/home/bonojovi/.claude/projects/-home-bonojovi-Data1-Linux-Projects-Rust-cntl/memory/user_brand_and_presence.md** 側で管理しています。
+
+**Snapshot Date**: 2026-02-03 (last metrics consolidated)
+**Purpose**: Condensed summary of online influence and opportunities (historical reference)
 **Keywords**: impact, opportunities, SEO, engagement, authority
 
 ---

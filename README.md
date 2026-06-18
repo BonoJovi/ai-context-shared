@@ -1,6 +1,6 @@
 # AI Context Shared
 
-**Last Updated**: 2026-02-03
+**Last Updated**: 2026-06-18 (役割分担セクション追記、cntl は非 submodule であることを明記)
 
 Shared AI context files for BonoJovi's Rust projects.
 
@@ -31,6 +31,27 @@ This repository contains common AI context files that are shared across multiple
 - [Promps-Edu](https://github.com/BonoJovi/Promps-Edu) - Visual Prompt Builder (Education)
 - [KakeiBonByRust](https://github.com/BonoJovi/KakeiBonByRust) - Personal finance manager
 - [Baconian](https://github.com/BonoJovi/Baconian) - Scientific method assistant
+
+> **cntl (https://github.com/BonoJovi/cntl) は本リポジトリを submodule として組み込んでいません。** cntl の運用情報は Claude memory 側に集約され、そこから本リポジトリの該当ファイルを必要に応じ `@絶対パス` で参照する設計です（2026-06-18 の設計判断より）。
+
+## Role Boundary: ai-context-shared vs Claude Memory
+
+本リポジトリと、各プロジェクトの Claude memory（`~/.claude/projects/.../memory/`）の役割分担を以下のように整理しています（2026-06-18 確定）。
+
+| | **ai-context-shared (このリポ)** | **Claude memory (各プロジェクト)** |
+|---|---|---|
+| 性質 | 横断・静的・思想体系 (slow-moving) | 即時・運用・個別文脈 (fast-moving) |
+| 想定読み手 | 全プロジェクト共通 | セッションごとの個別利用 |
+| 更新頻度 | 月単位・低頻度 | 日次・高頻度 |
+| 内容例 | 開発方法論 / 思想ドキュメント / 過去スナップショット | 現在のプロジェクトステータス / 健康状況 / 戦略の最新 |
+| 参照方向 | memory 同士は `[[name]]` | ハブ (ai-context-shared) → memory は `@絶対パス` |
+
+### 規約
+
+- **同じ事実を両側に書かない**。fast-moving な情報（プロジェクト現況・健康・戦略）は memory 側を一次ソースとする
+- **ai-context-shared 側の static な記述からは、必要に応じて memory 側へのポインタ (`@絶対パス`) を張る**
+- **過去スナップショットは日付明記**して保存（例: `analytics/ONLINE_IMPACT_SUMMARY.md` の冒頭注記）
+- **長文ドキュメント（`methodology/*.md`, `insights/archive/*.md`）はハブ化対象外**。読み物として維持し、必要に応じて部分的に memory へ抜粋する
 
 ## Structure
 
