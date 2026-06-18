@@ -9,7 +9,7 @@ Shared AI context files for BonoJovi's Rust projects.
 **Developer Profile must be loaded at the start of every session:**
 - `@developer/YOSHIHIRO_NAKAHARA_PROFILE.md`
 
-This file contains the developer's name, AI assistant name (ヴェス), and essential context for collaboration.
+This file contains the **Naming Convention** (ユーザ=「ボノさん」/ AI=「ヴェスさん」/ 会話=日本語) at its top — this must be observed from session start to end across all projects — plus the developer's background, skills, and essential context for collaboration.
 
 ### Critical Session Rule (MANDATORY)
 
